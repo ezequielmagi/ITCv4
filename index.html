@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Informatic Training Center</title>
+  </head>
+  <body>
+    <header>
+      <div class="header--container">
+        <img src="./assets/img/logo itc new.png" alt="logo-ITC" />
+      </div>
+    </header>
+    <main>
+      <section class="clase">
+        <div class="clase--container">
+          <div class="clase--video">
+            <video
+              controls
+              preload="auto"
+              controlslist="nodownload"
+              src="https://firebasestorage.googleapis.com/v0/b/recuperacionesv4.appspot.com/o/adm1.mp4?alt=media&token=bff6af8b-549c-4b69-b72f-908404757074"
+            ></video>
+          </div>
+          <div class="clase--infoClase">
+            <h3>Curso de Administracion de Pymes</h3>
+            <p>Clase 1: Introduccion</p>
+          </div>
+        </div>
+      </section>
+      <section class="navegacion">
+        <div class="controlesNavegacion">
+          <button>Clase Anterior</button>
+          <button>Clase Siguiente</button>
+        </div>
+      </section>
+      <section class="temario"></section>
+      <section class="ejercicios"></section>
+    </main>
+    <!-- scripts -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCqNwpjBuirxaaUPi13kNPwdwL62BJOlDQ",
+        authDomain: "recuperacionesv4.firebaseapp.com",
+        databaseURL: "https://recuperacionesv4-default-rtdb.firebaseio.com",
+        projectId: "recuperacionesv4",
+        storageBucket: "recuperacionesv4.appspot.com",
+        messagingSenderId: "786569254936",
+        appId: "1:786569254936:web:ed37bae30f00943e9e4b6d",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
