@@ -8,16 +8,19 @@
 
 header {
   background-color: #0058ff;
-  height: 10vh;
+  height: 12vh;
 }
 
 .header--container {
+  display: flex;
+  align-items: center;
   margin: 0 auto;
+  height: 100%;
   width: 90%;
 }
 
 .header--container img {
-  margin-top: 5px;
+  height: 15vw;
 }
 
 .clase {
